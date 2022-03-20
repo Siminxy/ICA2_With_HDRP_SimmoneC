@@ -15,11 +15,11 @@ C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56775
+56323
 Successfully changed project path to: C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 96.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,168 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002032 seconds.
+Registered in 0.001988 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
+- Completed reload, in  1.045 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1058ms)
+	ReloadAssembly (1046ms)
 		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (481ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (214ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (212ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005300 seconds.
+Registered in 0.003771 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 106.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.635 seconds
+- Completed reload, in  1.594 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1635ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1411ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (688ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (182ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.2 MB.
-System memory in use after: 192.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4540.
-Total: 4.884300 ms (FindLiveObjects: 0.497900 ms CreateObjectMapping: 0.409600 ms MarkObjects: 3.892000 ms  DeleteObjects: 0.083800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1
-  artifactKey: Guid(7866e851d7af32044b00c4308b648a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1 using Guid(7866e851d7af32044b00c4308b648a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9a3448df3fea1ba82df5b842b4fac3') in 0.011853 seconds 
-  Import took 0.019083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/Scripts 1
-  artifactKey: Guid(4b1fbdaf8e6d3ef48b1157f2c9e57a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/Scripts 1 using Guid(4b1fbdaf8e6d3ef48b1157f2c9e57a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc08246e60212b71d8bfb0d30034563') in 0.008123 seconds 
-  Import took 0.015826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/HDRPDefaultResources
-  artifactKey: Guid(93e07c72de5d93e4f8b25fd6006093e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/HDRPDefaultResources using Guid(93e07c72de5d93e4f8b25fd6006093e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b029d80a0d7b8c5b4107e3000a1854') in 0.008103 seconds 
-  Import took 0.017734 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.339 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1339ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1595ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1137ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1375ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (400ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (389ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (673ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (295ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (163ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.5 MB.
-System memory in use after: 177.7 MB.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.3 MB.
+System memory in use after: 192.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4539.
-Total: 4.870700 ms (FindLiveObjects: 0.531800 ms CreateObjectMapping: 0.410400 ms MarkObjects: 3.883400 ms  DeleteObjects: 0.044000 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4537.
+Total: 5.928300 ms (FindLiveObjects: 0.725300 ms CreateObjectMapping: 0.388200 ms MarkObjects: 4.720200 ms  DeleteObjects: 0.092900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -210,34 +131,1624 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.377106 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack
-  artifactKey: Guid(51bc98e7b08eb7b48b8f80e7462be289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack using Guid(51bc98e7b08eb7b48b8f80e7462be289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8469e1b3b679bd74e17c4a79e3960bf9') in 0.013996 seconds 
-  Import took 0.025654 seconds .
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_A_DoorOpen_4x.FBX
+  artifactKey: Guid(4cc771020fc8a064a8f670b0088f2fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_A_DoorOpen_4x.FBX using Guid(4cc771020fc8a064a8f670b0088f2fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26632849710b6bc3cfa25e19d1af4838') in 1.026703 seconds 
+  Import took 1.036979 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 253.575017 seconds.
+  Time since last request: 0.000219 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_C_DoorOpen_4x.FBX
+  artifactKey: Guid(6de9cf5560ba85f4fa1106a61e6b4f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_C_DoorOpen_4x.FBX using Guid(6de9cf5560ba85f4fa1106a61e6b4f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295f50b15742035ce459430343416b45') in 0.099552 seconds 
+  Import took 0.107378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_RectangleIn_Door_6x.FBX
+  artifactKey: Guid(8abd513c468f1b347b77fff9627b63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_RectangleIn_Door_6x.FBX using Guid(8abd513c468f1b347b77fff9627b63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc153ef9e86a40277f038b37d598ec08') in 0.120511 seconds 
+  Import took 0.127963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_B_8x.FBX
+  artifactKey: Guid(f1e57af0eba67b64b837fa957cc50b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_B_8x.FBX using Guid(f1e57af0eba67b64b837fa957cc50b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a9e71b35d44dc66ff6444288fbfa9e') in 0.094113 seconds 
+  Import took 0.101371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_A_8x.FBX
+  artifactKey: Guid(86ece0c8e11c4614fa3e4545a3108297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_A_8x.FBX using Guid(86ece0c8e11c4614fa3e4545a3108297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bcbf0c51bf2a47bd30b615326f73b4') in 0.093689 seconds 
+  Import took 0.100879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_D_8x.FBX
+  artifactKey: Guid(7e9ddb2b503814b4598b24434e6a0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_D_8x.FBX using Guid(7e9ddb2b503814b4598b24434e6a0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc13da8e4e81093fb1db5dfc15441e5') in 0.146352 seconds 
+  Import took 0.153846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_B_DoorOpen_4x.FBX
+  artifactKey: Guid(a3653d848a0e7694c89376dcbc216b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_B_DoorOpen_4x.FBX using Guid(a3653d848a0e7694c89376dcbc216b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4442e0ad4af14a6c06a52f2422857958') in 0.079387 seconds 
+  Import took 0.086868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_B.FBX
+  artifactKey: Guid(7b665f704330d6f42b6d5c71bb4f31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_B.FBX using Guid(7b665f704330d6f42b6d5c71bb4f31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82abf83b908ce110ca6eef752007f75') in 0.054248 seconds 
+  Import took 0.061810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_E.FBX
+  artifactKey: Guid(e8f9fa8bc7d705047bc16ad1b015d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_E.FBX using Guid(e8f9fa8bc7d705047bc16ad1b015d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5641896fc1020ceb97eeaf8d3fe904ca') in 0.055632 seconds 
+  Import took 0.063543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_A_DoorOpen_2x.FBX
+  artifactKey: Guid(5b65e513b9f49564b8e3011bc6ff9d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_A_DoorOpen_2x.FBX using Guid(5b65e513b9f49564b8e3011bc6ff9d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb948afa044618f214e4ef4ad6a1ddac') in 0.066580 seconds 
+  Import took 0.074507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_A_16x.FBX
+  artifactKey: Guid(aa2f1284e9350254983da8fac5abf861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_A_16x.FBX using Guid(aa2f1284e9350254983da8fac5abf861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1c52195c84a4e4c22ca611849bfe1a') in 0.091179 seconds 
+  Import took 0.098361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_B_16x.FBX
+  artifactKey: Guid(9fe12ee773242e64da8a2ccd0aa04ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_B_16x.FBX using Guid(9fe12ee773242e64da8a2ccd0aa04ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd5333a63db80181294ecd09b8bc108') in 0.086087 seconds 
+  Import took 0.093149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_C.FBX
+  artifactKey: Guid(b0ac1dcaf75256242a27c7e67c160739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_C.FBX using Guid(b0ac1dcaf75256242a27c7e67c160739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0874e295cd74487ded90ff0c7dfacced') in 0.053508 seconds 
+  Import took 0.061988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_A.FBX
+  artifactKey: Guid(d3d11b54df57ee2409b3bc7bb03ffbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_A.FBX using Guid(d3d11b54df57ee2409b3bc7bb03ffbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f65623811e4e5f4c00d5b2859e4f6f9') in 0.055314 seconds 
+  Import took 0.062333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes
+  artifactKey: Guid(c8bf61fde1dd1ec4590fa33f841bfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes using Guid(c8bf61fde1dd1ec4590fa33f841bfc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014919dedf36e81b89b0445bed549b8d') in 0.006381 seconds 
+  Import took 0.015938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_C_DoorOpen_2x.FBX
+  artifactKey: Guid(4a28975e88b03944384e322bc4b3f77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_C_DoorOpen_2x.FBX using Guid(4a28975e88b03944384e322bc4b3f77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f026f4171874d26c44d37ac6f7118a7c') in 0.091384 seconds 
+  Import took 0.102368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_E_16x.FBX
+  artifactKey: Guid(622f5412a571ef14a9ad61420007e7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_E_16x.FBX using Guid(622f5412a571ef14a9ad61420007e7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbfc09d495bbad3c4eeed26d45b913e') in 0.095276 seconds 
+  Import took 0.103459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_RectangleIn_16x.FBX
+  artifactKey: Guid(766a72a1d29a0ea4ca7a63b20e656d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_RectangleIn_16x.FBX using Guid(766a72a1d29a0ea4ca7a63b20e656d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6e5e76364aa671a7227483f3acc7cd') in 0.070726 seconds 
+  Import took 0.078086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Midfloor_4x2.FBX
+  artifactKey: Guid(07295c05ee15b58428cb8a58b15cd5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Midfloor_4x2.FBX using Guid(07295c05ee15b58428cb8a58b15cd5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643f88b9b27e0015d63479c8dc7ee47d') in 0.056730 seconds 
+  Import took 0.064283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_A_16x.FBX
+  artifactKey: Guid(49c6776bcdfb2cd439a15a5798496933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_A_16x.FBX using Guid(49c6776bcdfb2cd439a15a5798496933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283cd2b8fa5eb59f397ec50587c5663a') in 0.094610 seconds 
+  Import took 0.101980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_A.FBX
+  artifactKey: Guid(ae91912b104df034aa8f47c9b53e7e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_A.FBX using Guid(ae91912b104df034aa8f47c9b53e7e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9cb51e306a489d0ca33705e38b03d6') in 0.069988 seconds 
+  Import took 0.077360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_DoorSet_A_16x.FBX
+  artifactKey: Guid(3c3b41ec58fd93447ab8d474c8dfe8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_DoorSet_A_16x.FBX using Guid(3c3b41ec58fd93447ab8d474c8dfe8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb207d503aae9fb807508a70944b5f11') in 0.094280 seconds 
+  Import took 0.102263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Water_A.FBX
+  artifactKey: Guid(b06278f536fb72146a07efc52191ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Water_A.FBX using Guid(b06278f536fb72146a07efc52191ce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3971091fa46627d0bc9d8c95753fe0') in 0.055403 seconds 
+  Import took 0.064128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_B_DoorOpen_2x.FBX
+  artifactKey: Guid(7affc24cafcd9344f98191b017dcf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_B_DoorOpen_2x.FBX using Guid(7affc24cafcd9344f98191b017dcf235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e69f46beb975231f68e1c7698f5977e') in 0.085719 seconds 
+  Import took 0.093427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_DoorSet_B_16x.FBX
+  artifactKey: Guid(bb55c3b30fd4f734c847a915a42dc1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_DoorSet_B_16x.FBX using Guid(bb55c3b30fd4f734c847a915a42dc1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf30456a2832b154d1eac50e64d5530') in 0.109316 seconds 
+  Import took 0.117222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals
+  artifactKey: Guid(b9d5482c77d9b8248a1447cc55aade38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals using Guid(b9d5482c77d9b8248a1447cc55aade38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24da8907e284e83bc91a081602bb11a5') in 0.007459 seconds 
+  Import took 0.015279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls
+  artifactKey: Guid(bddd96f7bfe741a479a6e30d28b22fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls using Guid(bddd96f7bfe741a479a6e30d28b22fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afb1fd1068288681d439cc1defe842f') in 0.007257 seconds 
+  Import took 0.017437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_D.FBX
+  artifactKey: Guid(56efa073a7746c64b9069b5633daff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_D.FBX using Guid(56efa073a7746c64b9069b5633daff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58ef66ffb1029a6645f305aef66bcd5') in 0.085967 seconds 
+  Import took 0.095224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_C.FBX
+  artifactKey: Guid(201e55f1ac846da4cac5db229cdcdccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_C.FBX using Guid(201e55f1ac846da4cac5db229cdcdccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348ecc7062ce54d430f0dce06d64b065') in 0.082335 seconds 
+  Import took 0.090312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_4x.FBX
+  artifactKey: Guid(e4822d504204268409a6e686ce201293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_4x.FBX using Guid(e4822d504204268409a6e686ce201293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b06d043df446952d6a7c88c897062d5') in 0.066367 seconds 
+  Import took 0.075581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_C_16x.FBX
+  artifactKey: Guid(47e8a0a2ac4a33940a70fb84e664095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_C_16x.FBX using Guid(47e8a0a2ac4a33940a70fb84e664095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdbf03cbb2c85848a56c908c0ceec31') in 0.083030 seconds 
+  Import took 0.090713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_D_8x.FBX
+  artifactKey: Guid(700dba560aecfdd4689c8dfaa1a28b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_D_8x.FBX using Guid(700dba560aecfdd4689c8dfaa1a28b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0711f2600aa519dc3370675824d2fc1f') in 0.088154 seconds 
+  Import took 0.096364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_B_16x.FBX
+  artifactKey: Guid(87ef6b0781a73534ea09fb733764e5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_WindowSet_B_16x.FBX using Guid(87ef6b0781a73534ea09fb733764e5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3684f675a22df49f8d8d0829bb166c16') in 0.082582 seconds 
+  Import took 0.090873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_1x.FBX
+  artifactKey: Guid(a235e609f8ecc1f49ba89bef6367ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_1x.FBX using Guid(a235e609f8ecc1f49ba89bef6367ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1641af5b9b400fd2054b10a475cf48') in 0.066380 seconds 
+  Import took 0.074734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_6x.FBX
+  artifactKey: Guid(272b8a8f79805ec48a5ec2430277a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_6x.FBX using Guid(272b8a8f79805ec48a5ec2430277a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136b6f017de47421273783674609f3dc') in 0.066533 seconds 
+  Import took 0.073881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_C_16x.FBX
+  artifactKey: Guid(f6cf9ecd8c3d4b74c984d55ec35c9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_C_16x.FBX using Guid(f6cf9ecd8c3d4b74c984d55ec35c9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f402a60f63210caf010224bcfdf21fd6') in 0.108214 seconds 
+  Import took 0.115863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_C_8x.FBX
+  artifactKey: Guid(429e512198d0a2d448f475af14a73bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Shop_Front_C_8x.FBX using Guid(429e512198d0a2d448f475af14a73bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da48621c87712f520d093478e3b4ba82') in 0.092442 seconds 
+  Import took 0.101003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_CornerOut_1x.FBX
+  artifactKey: Guid(864bfc6241520c144b6ab2bcc24efbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_CornerOut_1x.FBX using Guid(864bfc6241520c144b6ab2bcc24efbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f8bb5aa0f48caf5de27f15f51e0c5f') in 0.066966 seconds 
+  Import took 0.074575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_E_2x.FBX
+  artifactKey: Guid(787f4c6ef603ea94da7390f3a1d19092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_E_2x.FBX using Guid(787f4c6ef603ea94da7390f3a1d19092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a966168b178baa4d4b5fc57c10e7f8') in 0.094456 seconds 
+  Import took 0.102497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_A_2x.FBX
+  artifactKey: Guid(1d21bb83ad048dc4bbce2f80952750bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_A_2x.FBX using Guid(1d21bb83ad048dc4bbce2f80952750bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d9fa9a4185157d389cef3502a37a9e') in 0.079860 seconds 
+  Import took 0.088077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_B_2x.FBX
+  artifactKey: Guid(e5cb40c41ec334e42a4548f04dd03196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_B_2x.FBX using Guid(e5cb40c41ec334e42a4548f04dd03196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5f6ac48ae226ec27c8fa26c191a9ff') in 0.090693 seconds 
+  Import took 0.098418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_CornerOut_B_1x.FBX
+  artifactKey: Guid(da7a145869fc3de4ba5a025b62ba16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_CornerOut_B_1x.FBX using Guid(da7a145869fc3de4ba5a025b62ba16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a970098a1325094158c148dc7de8ab7') in 0.070550 seconds 
+  Import took 0.077550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_D_2x.FBX
+  artifactKey: Guid(9f33163612e212a46b51045b505a87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_D_2x.FBX using Guid(9f33163612e212a46b51045b505a87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801f3a644be25eeb239a0bda4d797ce3') in 0.092138 seconds 
+  Import took 0.099627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_F_2x.FBX
+  artifactKey: Guid(8e6004bb105da4243a02c39816c67083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_F_2x.FBX using Guid(8e6004bb105da4243a02c39816c67083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d21ec3b7ddc752af3b0b01d76a44c9e') in 0.124385 seconds 
+  Import took 0.132693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_D_16x.FBX
+  artifactKey: Guid(0b9daa3a1813d0d409f5e45d1780fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/W_Windows_D_16x.FBX using Guid(0b9daa3a1813d0d409f5e45d1780fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dfb5ab257946e41cf04cafbee6e354') in 0.079329 seconds 
+  Import took 0.087698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_MetalDoorsHigh_4x.FBX
+  artifactKey: Guid(0a04b6d47f9458147944e76fedf09e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_MetalDoorsHigh_4x.FBX using Guid(0a04b6d47f9458147944e76fedf09e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273555751dfe0a72164d1a2058336df2') in 0.080447 seconds 
+  Import took 0.087772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Shops_A_4x.FBX
+  artifactKey: Guid(9c92b9715371c9e4cb46adec00697841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Shops_A_4x.FBX using Guid(9c92b9715371c9e4cb46adec00697841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86eff19e9737df67524fbbc5fe6b1a07') in 0.077887 seconds 
+  Import took 0.085621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Shops_B_4x.FBX
+  artifactKey: Guid(0373aaf1c717859488820ece35b0ac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Shops_B_4x.FBX using Guid(0373aaf1c717859488820ece35b0ac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101462f3294de65c9748482a102a2b9f') in 0.079818 seconds 
+  Import took 0.087584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_RectangleIn_6x.FBX
+  artifactKey: Guid(35311235bb613db49b8e85836bcd5e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_RectangleIn_6x.FBX using Guid(35311235bb613db49b8e85836bcd5e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df28644457851d06de50d632ccd76e1e') in 0.071914 seconds 
+  Import took 0.079244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_B_6x.FBX
+  artifactKey: Guid(becca70f6892d434db3a2f16da135146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_B_6x.FBX using Guid(becca70f6892d434db3a2f16da135146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52693dfeffd10fbe833a20fd1cdc4b98') in 0.079060 seconds 
+  Import took 0.086205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_MetalDoors_6x.FBX
+  artifactKey: Guid(213bc6b74d0c9044790e55e4152019d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_MetalDoors_6x.FBX using Guid(213bc6b74d0c9044790e55e4152019d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1556f9bb4fea789ee91572ef59cee6bc') in 0.078001 seconds 
+  Import took 0.085837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Pilar_1x.FBX
+  artifactKey: Guid(bd1cd97440bec684e9984e6bd28ba2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Pilar_1x.FBX using Guid(bd1cd97440bec684e9984e6bd28ba2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcd966f2bb52ba95ff28996e3c746ac') in 0.070312 seconds 
+  Import took 0.078373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_D_4x.FBX
+  artifactKey: Guid(d5a5903f9745e0b489ece138343d49a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_D_4x.FBX using Guid(d5a5903f9745e0b489ece138343d49a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8d7dffebf65055c6a78cac4b4580c9') in 0.083089 seconds 
+  Import took 0.090472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_MetalDoorsShop_6x.FBX
+  artifactKey: Guid(969c4c05a72f3d84d8f4b72999255c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_MetalDoorsShop_6x.FBX using Guid(969c4c05a72f3d84d8f4b72999255c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8369b89c169d0a731cf184f1b82ef533') in 0.093008 seconds 
+  Import took 0.101184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_A_4x.FBX
+  artifactKey: Guid(092a56ad8e311084a9c5cc38534d5a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_A_4x.FBX using Guid(092a56ad8e311084a9c5cc38534d5a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99d37a102d2ba79862784bd53671dcc') in 0.077771 seconds 
+  Import took 0.086251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_C_6x.FBX
+  artifactKey: Guid(44deeb41e6417864eaf66034aeca07ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorRoll_C_6x.FBX using Guid(44deeb41e6417864eaf66034aeca07ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b6ba256f80e5650679097e3e706dd6') in 0.076628 seconds 
+  Import took 0.084365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorsHigh_4x.FBX
+  artifactKey: Guid(cef94cf32639cc54ba57c8b70e853248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_DoorsHigh_4x.FBX using Guid(cef94cf32639cc54ba57c8b70e853248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeeebcee0597fbbc80eef3fb1459f94') in 0.080487 seconds 
+  Import took 0.088071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_TriangleIn_6x.FBX
+  artifactKey: Guid(f4b940677e942174ea3978829f51f7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_TriangleIn_6x.FBX using Guid(f4b940677e942174ea3978829f51f7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471c243af8095243d58570333b049b29') in 0.067249 seconds 
+  Import took 0.074648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_B_2x.FBX
+  artifactKey: Guid(04ff95a7ef03a014a8ae2fcbcfcb3306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_B_2x.FBX using Guid(04ff95a7ef03a014a8ae2fcbcfcb3306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a018aa9a48ccc75dfb50fcc0db7422') in 0.080568 seconds 
+  Import took 0.087778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Shops_China_4x.FBX
+  artifactKey: Guid(4893f6f49b6180345a3b870416befd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Shops_China_4x.FBX using Guid(4893f6f49b6180345a3b870416befd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178acc97749a7e1d176910d61dd2b31b') in 0.089478 seconds 
+  Import took 0.097149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_A_2x.FBX
+  artifactKey: Guid(8d19c51a224141745ae06f92f33e29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_A_2x.FBX using Guid(8d19c51a224141745ae06f92f33e29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f37a077ae14298a19144567db29bb5') in 0.082416 seconds 
+  Import took 0.090938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_F_2x.FBX
+  artifactKey: Guid(45bc5e92e1ae7b24d9d21969bcde58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_F_2x.FBX using Guid(45bc5e92e1ae7b24d9d21969bcde58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c4315ed3bde007c06cbf65c49c1aae') in 0.085644 seconds 
+  Import took 0.094590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_Arc_2x.FBX
+  artifactKey: Guid(f41e2b51b67921a4ba9ef5c746d00257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_Arc_2x.FBX using Guid(f41e2b51b67921a4ba9ef5c746d00257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56a756135bc602e44303070469e9a35') in 0.065916 seconds 
+  Import took 0.073456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_E_2x.FBX
+  artifactKey: Guid(7e26935d795012a42aa845229995e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_E_2x.FBX using Guid(7e26935d795012a42aa845229995e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a8991672d2db5318e5faf761534703') in 0.078547 seconds 
+  Import took 0.086865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_G_1x.FBX
+  artifactKey: Guid(5a8cfdd638df53141a526189d7ca5aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_G_1x.FBX using Guid(5a8cfdd638df53141a526189d7ca5aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ec0f2976b67fb878c23362a95e1b45') in 0.078373 seconds 
+  Import took 0.086420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_J_2x.FBX
+  artifactKey: Guid(96bfc2c167f7e80439562082814b5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_J_2x.FBX using Guid(96bfc2c167f7e80439562082814b5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476487b0913f4cd00e72aecffa00f00a') in 0.086684 seconds 
+  Import took 0.094342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_2x.FBX
+  artifactKey: Guid(b079addd5f6f0f949946d4b25306471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_2x.FBX using Guid(b079addd5f6f0f949946d4b25306471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38be5fd86f4a441368e824ab3e5646b0') in 0.080551 seconds 
+  Import took 0.091243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_I_2x.FBX
+  artifactKey: Guid(1106be67426b5ad4397553113b7f216a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_I_2x.FBX using Guid(1106be67426b5ad4397553113b7f216a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0916eac7b2a9fedeb8b519adcb57221b') in 0.094965 seconds 
+  Import took 0.110720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_4x.FBX
+  artifactKey: Guid(593830a879a03c647841eabd0ce28757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_4x.FBX using Guid(593830a879a03c647841eabd0ce28757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33c20f50a80e5ebb2ee46ab8dd66ddf') in 0.077266 seconds 
+  Import took 0.086091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_H_2x.FBX
+  artifactKey: Guid(3fd4ab8f7d89fde4d90cf19daf337af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_H_2x.FBX using Guid(3fd4ab8f7d89fde4d90cf19daf337af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d745372c72f0459f67b4ff9b44a5ce3') in 0.100469 seconds 
+  Import took 0.107876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_1x.FBX
+  artifactKey: Guid(29cbbafe66d1c6a4391d5357281f34ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_1x.FBX using Guid(29cbbafe66d1c6a4391d5357281f34ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62c47469656661b6cc9a782d88e7359') in 0.078269 seconds 
+  Import took 0.086135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_C_2x.FBX
+  artifactKey: Guid(096bba08eee13354391d6cef22d28339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_C_2x.FBX using Guid(096bba08eee13354391d6cef22d28339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea92a9c50f12b53f2e9e50054145238b') in 0.080530 seconds 
+  Import took 0.088350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_ABC_Brick_Pilar_1x.FBX
+  artifactKey: Guid(62f4b3bb34d328749b868a93380d4b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_ABC_Brick_Pilar_1x.FBX using Guid(62f4b3bb34d328749b868a93380d4b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe0d38abccf391170ef4be9f4775b12') in 0.055346 seconds 
+  Import took 0.063591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_A_2x.FBX
+  artifactKey: Guid(6f3ee69bd98cdb7458da85732487a6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_A_2x.FBX using Guid(6f3ee69bd98cdb7458da85732487a6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91be965138cae654a4409444212cb8b1') in 0.093008 seconds 
+  Import took 0.101339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_C_2x.FBX
+  artifactKey: Guid(458807235ef2df147bd6f5893c8f26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_C_2x.FBX using Guid(458807235ef2df147bd6f5893c8f26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac3b5fc21bb620517660521d46285c9') in 0.106888 seconds 
+  Import took 0.115421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorsHigh_4x.FBX
+  artifactKey: Guid(6a690093b21bcae4ea95c44dcd0f80a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorsHigh_4x.FBX using Guid(6a690093b21bcae4ea95c44dcd0f80a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdd7d81d43207d90a57aebd71f9fbdc') in 0.096031 seconds 
+  Import took 0.105153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_D_2x.FBX
+  artifactKey: Guid(aa11b6cabb52a524e915c67258d36fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_D_2x.FBX using Guid(aa11b6cabb52a524e915c67258d36fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1688bb4ec69b83f6dbb91cfb83a6bc00') in 0.110448 seconds 
+  Import took 0.118313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Pilar_1x.FBX
+  artifactKey: Guid(b78dab13183546b4db25b14811a0faae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Pilar_1x.FBX using Guid(b78dab13183546b4db25b14811a0faae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298d7b045560ca1865d999af21d267c7') in 0.081883 seconds 
+  Import took 0.089754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_B_2x.FBX
+  artifactKey: Guid(3d6d98031cab24a43bb6033b5146e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_B_2x.FBX using Guid(3d6d98031cab24a43bb6033b5146e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9030a8007a40b53790f5c074e4d1fea') in 0.102247 seconds 
+  Import took 0.110584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_E_2x.FBX
+  artifactKey: Guid(a3754b851ef792646b5ac16d12bc868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_E_2x.FBX using Guid(a3754b851ef792646b5ac16d12bc868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704073f09aa737b829e5ea956c04b1f4') in 0.105491 seconds 
+  Import took 0.114663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_MetalDoors_6x.FBX
+  artifactKey: Guid(0fc704771d6291c408ce5c5dc1bebf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_MetalDoors_6x.FBX using Guid(0fc704771d6291c408ce5c5dc1bebf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebc38d1320823588a430b5d131c5162') in 0.089729 seconds 
+  Import took 0.098031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_F_2x.FBX
+  artifactKey: Guid(12cdc8e1760e35a47a35d1794072d242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Door_F_2x.FBX using Guid(12cdc8e1760e35a47a35d1794072d242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11519c613199c79bd1f7c9351dae1520') in 0.125734 seconds 
+  Import took 0.133795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_D_4x.FBX
+  artifactKey: Guid(770fd0b26cbf1b64e8bd9293ed458fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_D_4x.FBX using Guid(770fd0b26cbf1b64e8bd9293ed458fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b04129e2e409a87b50e67e036ed462') in 0.095512 seconds 
+  Import took 0.103938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_G_1x.FBX
+  artifactKey: Guid(35e47c115fddf384eb6db2b791bc171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_G_1x.FBX using Guid(35e47c115fddf384eb6db2b791bc171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566009f0ff20a35a4eba347a81573aff') in 0.090236 seconds 
+  Import took 0.098362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_F_2x.FBX
+  artifactKey: Guid(da47e3c872f08e04ab8b0cf2227e6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_F_2x.FBX using Guid(da47e3c872f08e04ab8b0cf2227e6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3050d84be62237946f0501e91f341bca') in 0.093792 seconds 
+  Import took 0.102287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_H_2x.FBX
+  artifactKey: Guid(5992e333f940ff64da8a0ce2f9181230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_H_2x.FBX using Guid(5992e333f940ff64da8a0ce2f9181230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6b4eb6be94087577f8e3ba8f112815') in 0.107899 seconds 
+  Import took 0.115696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_TriangleIn_6x.FBX
+  artifactKey: Guid(8bbdea59516e93b4982804c7baf581b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_TriangleIn_6x.FBX using Guid(8bbdea59516e93b4982804c7baf581b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bec49c19674736c209311593bc1f434') in 0.081074 seconds 
+  Import took 0.089470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_D_2x.FBX
+  artifactKey: Guid(476bf3466f813b949a34930130913398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_D_2x.FBX using Guid(476bf3466f813b949a34930130913398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3d4acc1896f397ad5c97ca5f3a7484') in 0.092090 seconds 
+  Import took 0.100493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_MetalDoorsHigh_4x.FBX
+  artifactKey: Guid(a4594112a92250943b4b9f33d4d45390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_MetalDoorsHigh_4x.FBX using Guid(a4594112a92250943b4b9f33d4d45390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570358f8018fa1b8bb5de0f25dd4bc93') in 0.092219 seconds 
+  Import took 0.101335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_C_6x.FBX
+  artifactKey: Guid(f77789f4e28acc146a41958dad530055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_C_6x.FBX using Guid(f77789f4e28acc146a41958dad530055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a26559a25f6be18c4bf7dd0ba42fd9e') in 0.092184 seconds 
+  Import took 0.100277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_CornerIn_1x.FBX
+  artifactKey: Guid(05b21e0111e8b2e499ebb5bdd5407c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_CornerIn_1x.FBX using Guid(05b21e0111e8b2e499ebb5bdd5407c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd363b5e3b2cb5e111b451517dca97c') in 0.077680 seconds 
+  Import took 0.086739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_B_4x.FBX
+  artifactKey: Guid(ce39d9b354195fb4cadac5f4ae68f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_B_4x.FBX using Guid(ce39d9b354195fb4cadac5f4ae68f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65503bf23bb8989d178c13251a4f7082') in 0.089570 seconds 
+  Import took 0.098495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_6x.FBX
+  artifactKey: Guid(707c2745a66a83d47a8ff8041b17bf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_6x.FBX using Guid(707c2745a66a83d47a8ff8041b17bf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df787a9cf48f50787c5d9cf390a01c40') in 0.079469 seconds 
+  Import took 0.087793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Xxxshop_6x.FBX
+  artifactKey: Guid(1fd46400df5152e4c9d8aea3740bd0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Xxxshop_6x.FBX using Guid(1fd46400df5152e4c9d8aea3740bd0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5272d7d5740a585d2b259de3a94c8308') in 0.080517 seconds 
+  Import took 0.088221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_B.FBX
+  artifactKey: Guid(33eebc6292be63547858b6c2435400f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Door_B.FBX using Guid(33eebc6292be63547858b6c2435400f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7b78ab1cb04d9027101e8d0a0f72f4') in 0.064176 seconds 
+  Import took 0.072685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_CornerIn_1x.FBX
+  artifactKey: Guid(3f0de03b46975f14397042a00c3511a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_CornerIn_1x.FBX using Guid(3f0de03b46975f14397042a00c3511a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed3526437fccc52854a63ab5d8ba9ed') in 0.064694 seconds 
+  Import took 0.073673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_RectangleIn_6x.FBX
+  artifactKey: Guid(bd54b023acc82ba4183401453d88dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_RectangleIn_6x.FBX using Guid(bd54b023acc82ba4183401453d88dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294a60fbf96c95b832bd5eb90f12a200') in 0.079559 seconds 
+  Import took 0.088226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_D_2x.FBX
+  artifactKey: Guid(96aaf235f1aa8844a9fa9a9d8b0568de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Window_D_2x.FBX using Guid(96aaf235f1aa8844a9fa9a9d8b0568de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4abce23595285804bd5d37868484929') in 0.078837 seconds 
+  Import took 0.087506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Water_B.FBX
+  artifactKey: Guid(6fd5120ea785df040996ce3489ce1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Water_B.FBX using Guid(6fd5120ea785df040996ce3489ce1e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e64ee8d117e0d0eea91ff35a968844') in 0.051373 seconds 
+  Import took 0.059736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_C_2x.FBX
+  artifactKey: Guid(05fe17a1dc84c2f48a96103f5d5362a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_Door_C_2x.FBX using Guid(05fe17a1dc84c2f48a96103f5d5362a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbf9252759f4367ffe24e752fd3eaf8') in 0.091315 seconds 
+  Import took 0.099460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_D.FBX
+  artifactKey: Guid(c001b3833acba1c469b943003842f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Dirt_D.FBX using Guid(c001b3833acba1c469b943003842f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a087e7d4fd347b33c1fd37a016586233') in 0.063936 seconds 
+  Import took 0.072206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_E_2x.FBX
+  artifactKey: Guid(d4819be7f78e9994dba7b7c7be29b769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_E_2x.FBX using Guid(d4819be7f78e9994dba7b7c7be29b769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec1e4f61bd3959de8b0c089770a9084') in 0.093285 seconds 
+  Import took 0.101565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_C_2x.FBX
+  artifactKey: Guid(1e7ac129ec6ad734c9991fb4c13373de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_C_2x.FBX using Guid(1e7ac129ec6ad734c9991fb4c13373de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2341ee4fb571986362bb7cbd59720ece') in 0.093962 seconds 
+  Import took 0.102716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_China_4x.FBX
+  artifactKey: Guid(34fb0f4aae5135f4c9eca88f4a70d456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_China_4x.FBX using Guid(34fb0f4aae5135f4c9eca88f4a70d456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88adaf3e527db4b4d9ae6e2e05563fb6') in 0.094562 seconds 
+  Import took 0.102580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_J_2x.FBX
+  artifactKey: Guid(06cf595256e4f204a8c4878140dfca4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_J_2x.FBX using Guid(06cf595256e4f204a8c4878140dfca4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee3375069457a62b62743abf98a1198') in 0.092737 seconds 
+  Import took 0.101146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_CornerOut_1x.FBX
+  artifactKey: Guid(6d21fe43a8b466b418804fbd307301ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_CornerOut_1x.FBX using Guid(6d21fe43a8b466b418804fbd307301ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58944d5fd099b34a8ee88018e3ba299') in 0.082966 seconds 
+  Import took 0.090973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_A_4x.FBX
+  artifactKey: Guid(e8b4468140a358b418e4fb6c9621d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_A_4x.FBX using Guid(e8b4468140a358b418e4fb6c9621d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7b51b53a74863121d598f184d91c1a') in 0.093687 seconds 
+  Import took 0.101860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_A_2x.FBX
+  artifactKey: Guid(9e4df2797d3548c42b70c10d90082fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_A_2x.FBX using Guid(9e4df2797d3548c42b70c10d90082fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc369e6f6c17226a3e9618a2d8ac54d') in 0.107293 seconds 
+  Import took 0.116779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_A_4x.FBX
+  artifactKey: Guid(5347ededf6aa2bc4595719f0d267f8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_A_4x.FBX using Guid(5347ededf6aa2bc4595719f0d267f8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57bc500817897260f413ff1e6ccb5d8') in 0.103987 seconds 
+  Import took 0.113435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_B_2x.FBX
+  artifactKey: Guid(c4cd2ce6cdd035446b15df2a9cb08e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_B_2x.FBX using Guid(c4cd2ce6cdd035446b15df2a9cb08e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9b34f8fd22f66d3ddaa8a11cbaf524') in 0.101873 seconds 
+  Import took 0.112195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_AMod_4x01.FBX
+  artifactKey: Guid(d6636b600a5323047911ca227600da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Shops_AMod_4x01.FBX using Guid(d6636b600a5323047911ca227600da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49b5be086255453856f1b0095d91d57') in 0.105219 seconds 
+  Import took 0.114979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_B_6x.FBX
+  artifactKey: Guid(3b16747b27390b24a8d3a8baf8aca1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_DoorRoll_B_6x.FBX using Guid(3b16747b27390b24a8d3a8baf8aca1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97803d1e866f67b33611ffe3590f5b46') in 0.103830 seconds 
+  Import took 0.112408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_CornerOut_B_1x.FBX
+  artifactKey: Guid(70277dee65577f54fb5b0de08a5c75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_CornerOut_B_1x.FBX using Guid(70277dee65577f54fb5b0de08a5c75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9903e32aef2bfa1083b3d449f5d8f23a') in 0.084860 seconds 
+  Import took 0.093676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_2x.FBX
+  artifactKey: Guid(4e523643ee41e6141937bd1daa0420d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_A_Brick_2x.FBX using Guid(4e523643ee41e6141937bd1daa0420d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f525399ae23f601151ba40a66d007') in 0.063733 seconds 
+  Import took 0.072956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_I_2x.FBX
+  artifactKey: Guid(8355249c7ae047741a49eb9ef81e7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Walls/Wall_B_Brick_Window_I_2x.FBX using Guid(8355249c7ae047741a49eb9ef81e7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5a139b37aae4bf10e2b35f55b554f5') in 0.104816 seconds 
+  Import took 0.113318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Water_C.FBX
+  artifactKey: Guid(d6fbb910d9fe2db47adde857026385ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Meshes/Decals/Decal_Water_C.FBX using Guid(d6fbb910d9fe2db47adde857026385ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c138d4f517fb7d9f5c983a3bc01b183c') in 0.051114 seconds 
+  Import took 0.059232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.573206 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures
+  artifactKey: Guid(67efb4f5a36053448a94020f488649de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures using Guid(67efb4f5a36053448a94020f488649de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd804d764676e53b5e60a52859cd21f') in 0.011014 seconds 
+  Import took 0.021224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111718 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/AirductTiled_BaseColor.tga
+  artifactKey: Guid(179b5ef7d32a66944be624d1cc710d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/AirductTiled_BaseColor.tga using Guid(179b5ef7d32a66944be624d1cc710d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd0abbcd01cb2a852fcca112694e5c3') in 0.030180 seconds 
+  Import took 0.045112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_BaseColor.tga
+  artifactKey: Guid(03734e11855362043816f0bcb4748b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_BaseColor.tga using Guid(03734e11855362043816f0bcb4748b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7605e6339cf0aea5a6c7b4544c43551') in 0.021210 seconds 
+  Import took 0.029215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_C_Emissive.tga
+  artifactKey: Guid(3dee59158c102964aaa724f1af1be046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_C_Emissive.tga using Guid(3dee59158c102964aaa724f1af1be046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63adf34dbe89d5ee363454ce7fba7b9e') in 0.021361 seconds 
+  Import took 0.029937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_MaskMap.tga
+  artifactKey: Guid(6645e0c393e336344a705a0ec31096f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_MaskMap.tga using Guid(6645e0c393e336344a705a0ec31096f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4b734f0b51bbf1e636ed7382156c45') in 0.019948 seconds 
+  Import took 0.028505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Alley_Prop_Set_Normal.tga
+  artifactKey: Guid(9162e02186a80ac49975bdc7f107e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Alley_Prop_Set_Normal.tga using Guid(9162e02186a80ac49975bdc7f107e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf989d121a177a4dafd8123a0b979e7') in 0.040377 seconds 
+  Import took 0.048223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/AirductTiled_MaskMap.tga
+  artifactKey: Guid(e748fc74c0430cc4e8738310f2a94010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/AirductTiled_MaskMap.tga using Guid(e748fc74c0430cc4e8738310f2a94010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6ea207c19f0ad17ac7c05064696bb0') in 0.019174 seconds 
+  Import took 0.027630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Alley_Prop_Set_BaseColor.tga
+  artifactKey: Guid(71056896541c4754692c489bac18ae7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Alley_Prop_Set_BaseColor.tga using Guid(71056896541c4754692c489bac18ae7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f94ce5dc6871ad77d659543070c475') in 0.032460 seconds 
+  Import took 0.040617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Awnings_BaseColor.tga
+  artifactKey: Guid(26a14d930e1f7514b921f6eedca8c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Awnings_BaseColor.tga using Guid(26a14d930e1f7514b921f6eedca8c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c493d3c824741625b4d64feb7d94a2f') in 0.023840 seconds 
+  Import took 0.032145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_BaseColor.tga
+  artifactKey: Guid(4ab3164b7ae79004cb3ff8eb924b0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_BaseColor.tga using Guid(4ab3164b7ae79004cb3ff8eb924b0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a027799815407400efd71efc51914b43') in 0.020850 seconds 
+  Import took 0.028828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Awnings_MaskMap.tga
+  artifactKey: Guid(d6a5ac9c5bc08d54d9c811c7acb1af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Awnings_MaskMap.tga using Guid(d6a5ac9c5bc08d54d9c811c7acb1af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1494d7d229e8bc05d473667b458ca4e3') in 0.022545 seconds 
+  Import took 0.031124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_Normal.tga
+  artifactKey: Guid(9c30df1d5fee515449be521ba95aec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_Normal.tga using Guid(9c30df1d5fee515449be521ba95aec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa6f1ac653f18b3c279a5d18f3d73f5') in 0.020391 seconds 
+  Import took 0.028865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Dirt_BaseColor.png
+  artifactKey: Guid(4a02b2f319338794cb2834ce2801bfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Dirt_BaseColor.png using Guid(4a02b2f319338794cb2834ce2801bfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1288f25b3f1cb80d04c1dd3aeff974ea') in 0.030620 seconds 
+  Import took 0.039653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Cloud_BaseColor.png
+  artifactKey: Guid(7ad2b831f7899de409b872b17c86e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Cloud_BaseColor.png using Guid(7ad2b831f7899de409b872b17c86e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed03c3708db8e0cb3532cc780c4e4b7c') in 0.021009 seconds 
+  Import took 0.029546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Bed_MaskMap.tga
+  artifactKey: Guid(022fea39df4098643983bc5385bb9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Bed_MaskMap.tga using Guid(022fea39df4098643983bc5385bb9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a3ab3de8006e58fa167a006b8dafb3') in 0.025811 seconds 
+  Import took 0.035244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Decals_Dirt_BaseColor.tga
+  artifactKey: Guid(cd9f56719cb33d24da276f8292e2cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Decals_Dirt_BaseColor.tga using Guid(cd9f56719cb33d24da276f8292e2cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a097a2cdb672da9418d8666c2cc5bd07') in 0.021273 seconds 
+  Import took 0.030312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Awnings_Normal.tga
+  artifactKey: Guid(0b72a86d38253a043b307bfae8e22682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Awnings_Normal.tga using Guid(0b72a86d38253a043b307bfae8e22682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bc2ca73c0274cecb594c60733e06e3') in 0.035508 seconds 
+  Import took 0.043809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_C_BaseColor.tga
+  artifactKey: Guid(3a11a59c94ecc164196b1a9967f9bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_C_BaseColor.tga using Guid(3a11a59c94ecc164196b1a9967f9bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b2e389a884e98f2f4dbd0a6ddff3bc') in 0.020128 seconds 
+  Import took 0.028782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_Emissive.tga
+  artifactKey: Guid(120c742f799e7e949b9924f98fbb8b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Distant_Building_B_Emissive.tga using Guid(120c742f799e7e949b9924f98fbb8b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574c2031dc9189e6984682d5c7882800') in 0.021505 seconds 
+  Import took 0.030126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Alley_Prop_Set_MaskMap.tga
+  artifactKey: Guid(f97a90f5072913e42b46a16acce18dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Alley_Prop_Set_MaskMap.tga using Guid(f97a90f5072913e42b46a16acce18dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec6b5cc35ca4933d1bf40b638c3991a') in 0.031467 seconds 
+  Import took 0.039547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Bed_BaseColor.tga
+  artifactKey: Guid(3735849b762b94d4eb51a432f0f6235f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Bed_BaseColor.tga using Guid(3735849b762b94d4eb51a432f0f6235f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8881e942c0a20cf3a9269037d491c856') in 0.021188 seconds 
+  Import took 0.028940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Bed_Normal.tga
+  artifactKey: Guid(9f29d8adadfa17a4296db2f91418493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Bed_Normal.tga using Guid(9f29d8adadfa17a4296db2f91418493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e5642009f5a132a63a5f08125db2d4') in 0.024049 seconds 
+  Import took 0.032682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Decals_Dirt_Normal.tga
+  artifactKey: Guid(e9abf39c7471c794b8b707d9878414e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Decals_Dirt_Normal.tga using Guid(e9abf39c7471c794b8b707d9878414e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c6888f6f4685ada436e5940cdc6b78') in 0.021705 seconds 
+  Import took 0.030204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Detail_Dirt_BaseColor.psd
+  artifactKey: Guid(783533df8315d3343913c7f41e2cceb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Detail_Dirt_BaseColor.psd using Guid(783533df8315d3343913c7f41e2cceb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c008e9240d5868adfc83875f54d87ed2') in 0.023129 seconds 
+  Import took 0.031285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/AirductTiled_Normal.tga
+  artifactKey: Guid(5d6903a350e6e864fac68f200eb248a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/AirductTiled_Normal.tga using Guid(5d6903a350e6e864fac68f200eb248a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b47ae093fd71679636b7a5a7147ff9e') in 0.020414 seconds 
+  Import took 0.028844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Decals_Water_BaseColor.tga
+  artifactKey: Guid(9699bc7016dc53b4e873cd2dd0953560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Textures/Decals_Water_BaseColor.tga using Guid(9699bc7016dc53b4e873cd2dd0953560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9994bef2727cce395c2a96744945c1e4') in 0.022247 seconds 
+  Import took 0.030473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.888077 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls
+  artifactKey: Guid(106bedf0603f42c409d3c1e35d2aedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls using Guid(106bedf0603f42c409d3c1e35d2aedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b504ea99a31cfd0356242d9479621b2') in 0.006892 seconds 
+  Import took 0.016504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.110987 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D
+  artifactKey: Guid(38c5e5d1ab7834c47a17d4c2f37a5de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D using Guid(38c5e5d1ab7834c47a17d4c2f37a5de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a5b9c22465f45b054db65342151e64') in 0.007095 seconds 
+  Import took 0.016134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.983942 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D
+  artifactKey: Guid(bdd7781c263fdd449a989725b7ef7b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D using Guid(bdd7781c263fdd449a989725b7ef7b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aad5a1821ea61fd2713c793f3136e62') in 0.003133 seconds 
+  Import took 0.012799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129703 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_1x.prefab
+  artifactKey: Guid(28abd556d661a1849b9c94443a0f782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_1x.prefab using Guid(28abd556d661a1849b9c94443a0f782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e91e900d097d6def03d50a33e60085') in 0.016717 seconds 
+  Import took 0.031228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_4x.prefab
+  artifactKey: Guid(6a09ae26317b8bc4993fd5e557085cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_4x.prefab using Guid(6a09ae26317b8bc4993fd5e557085cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1143d3fe84fcd0d8ffd1d72be9c5ba') in 0.010145 seconds 
+  Import took 0.019719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_RectangleIn_6x.prefab
+  artifactKey: Guid(fe780aa51bc9b1b438c72c8a99c218b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_RectangleIn_6x.prefab using Guid(fe780aa51bc9b1b438c72c8a99c218b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbcdef26511169dcd513a6ba21f9d4e') in 0.011980 seconds 
+  Import took 0.021890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_2x.prefab
+  artifactKey: Guid(0b3767369600bf541a43bfe0236104f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_2x.prefab using Guid(0b3767369600bf541a43bfe0236104f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec83031791ac9f58b79e62210e3ad44c') in 0.011046 seconds 
+  Import took 0.020471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_TriangleIn_6x.prefab
+  artifactKey: Guid(bdd6cc80c46d5674a88da416d237fb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_TriangleIn_6x.prefab using Guid(bdd6cc80c46d5674a88da416d237fb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c453da49d4c8d03e7e4a93274726134') in 0.010717 seconds 
+  Import took 0.019732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_6x.prefab
+  artifactKey: Guid(aa4345edbfa8cd243812069ed8e90e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Walls/Walls_D/Walls_D/Wall_D_Brick_6x.prefab using Guid(aa4345edbfa8cd243812069ed8e90e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b644b34d388fc0985d5adcb6cca4659d') in 0.011380 seconds 
+  Import took 0.019699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.890742 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors
+  artifactKey: Guid(da7b17bcf97b8a04cadadf5c8c371dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors using Guid(da7b17bcf97b8a04cadadf5c8c371dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d31d2b22bda0e719f5646d93a9f4ae1') in 0.006884 seconds 
+  Import took 0.016012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.072553 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street
+  artifactKey: Guid(5b10426e0554f7e46b8b426283619dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street using Guid(5b10426e0554f7e46b8b426283619dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ec61c2e28e8a4532992c474a6cfef1') in 0.006837 seconds 
+  Import took 0.015932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105379 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_1x3.prefab
+  artifactKey: Guid(1e68da3c14c6f4e439d3f2b162f5e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_1x3.prefab using Guid(1e68da3c14c6f4e439d3f2b162f5e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed15660b17bcd115797933ee8233d1b8') in 0.009503 seconds 
+  Import took 0.019300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_2x3.prefab
+  artifactKey: Guid(65dcd2bce813e8241a928673bffef655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_2x3.prefab using Guid(65dcd2bce813e8241a928673bffef655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e041c194b112f5d752a399d3d2dec28d') in 0.009683 seconds 
+  Import took 0.018670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_3x3.prefab
+  artifactKey: Guid(d27a4221691db5945bfb1670543a2089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_3x3.prefab using Guid(d27a4221691db5945bfb1670543a2089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242e93308d212115e4442afe94532e36') in 0.011668 seconds 
+  Import took 0.020536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_B_6x3.prefab
+  artifactKey: Guid(5b0234d167386ae4e8575781d212500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_B_6x3.prefab using Guid(5b0234d167386ae4e8575781d212500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296d8e0a96ee1235294ec5e7dff3717a') in 0.011185 seconds 
+  Import took 0.020572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_6x3.prefab
+  artifactKey: Guid(afeee715d2fc83f498b0192ac3d98328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_6x3.prefab using Guid(afeee715d2fc83f498b0192ac3d98328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ef505c9204efcbccc44eba6de447ad') in 0.011140 seconds 
+  Import took 0.020019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_A_6x3.prefab
+  artifactKey: Guid(9d3db9ad60d6cb8448e94675c502ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_A_6x3.prefab using Guid(9d3db9ad60d6cb8448e94675c502ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3323162f1643ad254ec0f442fca41f') in 0.010718 seconds 
+  Import took 0.019356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.246164 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Midfloor
+  artifactKey: Guid(cadd9c0557677ea4a9b9b1f863f07acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Midfloor using Guid(cadd9c0557677ea4a9b9b1f863f07acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d32743e4d167252c8ade8b685c0237e') in 0.006491 seconds 
+  Import took 0.016843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378677 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Midfloor/Midfloor_4x2.prefab
+  artifactKey: Guid(d40b643369c0d994d8a9099c4c8b3154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Midfloor/Midfloor_4x2.prefab using Guid(d40b643369c0d994d8a9099c4c8b3154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6799449cfd489323f36f6a93ead0881f') in 0.007641 seconds 
+  Import took 0.018000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.852546 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement
+  artifactKey: Guid(be748a981a907a644b0e47da3cc40179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement using Guid(be748a981a907a644b0e47da3cc40179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b02984cf29a7eb129e91b538af5b099') in 0.007109 seconds 
+  Import took 0.016503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_1x.prefab
+  artifactKey: Guid(68f59e98386d93d41b8bd88d8b7cf1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_1x.prefab using Guid(68f59e98386d93d41b8bd88d8b7cf1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0d1f44fcee26893e7d5721258e5ac2') in 0.009408 seconds 
+  Import took 0.018256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_3x.prefab
+  artifactKey: Guid(d320a6085fb0a7249acc6b36962f0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_3x.prefab using Guid(d320a6085fb0a7249acc6b36962f0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5161e40416406c22cbd61e2ab5eb118a') in 0.009155 seconds 
+  Import took 0.017662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_1x.prefab
+  artifactKey: Guid(aeb20c6ee76ad444aaec639124279892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_1x.prefab using Guid(aeb20c6ee76ad444aaec639124279892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f671a65c0176ca87530bc863dd25f95f') in 0.009445 seconds 
+  Import took 0.017861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_1½x.prefab
+  artifactKey: Guid(91466f5522e4e7a48a3d7ff0742e3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_1½x.prefab using Guid(91466f5522e4e7a48a3d7ff0742e3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f6959bbb2eae0f597d125095876d2d') in 0.010908 seconds 
+  Import took 0.020067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_½x.prefab
+  artifactKey: Guid(79669cb44fac12c4c8201b9bd4c7ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_½x.prefab using Guid(79669cb44fac12c4c8201b9bd4c7ad00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88a1af0123a5d7c2e8dcd1b935b32d1') in 0.010460 seconds 
+  Import took 0.021286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_Corner45ZigZag.prefab
+  artifactKey: Guid(0c5ad26b876b6874f96317d7197f1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_Corner45ZigZag.prefab using Guid(0c5ad26b876b6874f96317d7197f1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edc000b7cbe0663dc37b474e116ac14') in 0.010950 seconds 
+  Import took 0.019892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_Corner45ZigZag.prefab
+  artifactKey: Guid(2e4249175d2ce57468d74b922a222dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_Corner45ZigZag.prefab using Guid(2e4249175d2ce57468d74b922a222dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd35f7158c237a83bd6e2b0f1d284e9') in 0.011321 seconds 
+  Import took 0.020414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_Corner90deg.prefab
+  artifactKey: Guid(742f1a8646ad1fc499b06eacd585652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_Corner90deg.prefab using Guid(742f1a8646ad1fc499b06eacd585652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bae443c60379aa7847380ddecef1516') in 0.010082 seconds 
+  Import took 0.019141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_1½x.prefab
+  artifactKey: Guid(8e90916aa5fac1946b3095e03149d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_1½x.prefab using Guid(8e90916aa5fac1946b3095e03149d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7179788a914b4880351f08b74764a3') in 0.010890 seconds 
+  Import took 0.020848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_CornerBig90.prefab
+  artifactKey: Guid(cbf863e8a11f6bd46af2bb85035317d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_CornerBig90.prefab using Guid(cbf863e8a11f6bd46af2bb85035317d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cde73123fd02c6bfd0dc750b7e6e941') in 0.010503 seconds 
+  Import took 0.019772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_Corner90deg.prefab
+  artifactKey: Guid(e8cff5034478ddf40ab69974744b2522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_A_Corner90deg.prefab using Guid(e8cff5034478ddf40ab69974744b2522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ed7bafc6d602be0f081b4cd3db5cc4') in 0.010598 seconds 
+  Import took 0.019405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_3x.prefab
+  artifactKey: Guid(56259c0a0dddce543b60bc63a479e5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Stonepavement/Floor_StonePavemet_B_3x.prefab using Guid(56259c0a0dddce543b60bc63a479e5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dec863040fc7f99de8031656b2abeff') in 0.010571 seconds 
+  Import took 0.019239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.054653 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Colliders
+  artifactKey: Guid(283dde5d4f3b5b6479dbb111d0ac75de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Colliders using Guid(283dde5d4f3b5b6479dbb111d0ac75de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e72e5e332654e6298d51a2c471bfc1') in 0.007086 seconds 
+  Import took 0.016254 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.507 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1507ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (5ms)
+			DisableScriptedObjects (94ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.7 MB.
+System memory in use after: 198.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4709.
+Total: 5.296800 ms (FindLiveObjects: 0.560800 ms CreateObjectMapping: 0.385800 ms MarkObjects: 4.308900 ms  DeleteObjects: 0.040400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1519ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1310ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.1 MB.
+System memory in use after: 197.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4715.
+Total: 5.082500 ms (FindLiveObjects: 0.517600 ms CreateObjectMapping: 0.383500 ms MarkObjects: 4.142400 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 143.024297 seconds.
   path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs
-  artifactKey: Guid(2b20fa19e90f5384d8daa993618763c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs using Guid(2b20fa19e90f5384d8daa993618763c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55405a3f2184d94977ce60601edaaf33') in 0.007897 seconds 
-  Import took 0.017135 seconds .
+  artifactKey: Guid(dd1e04fee190c3645972cd1cee77d043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs using Guid(dd1e04fee190c3645972cd1cee77d043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd746dd3a41f9c691b9bb5a2cfde03af6') in 0.010613 seconds 
+  Import took 0.018944 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.398687 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Scripts
-  artifactKey: Guid(4e388b48f4ee13f4599ec7d9c939de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Scripts using Guid(4e388b48f4ee13f4599ec7d9c939de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198d31e5fbdd0a47ee7cca1bd936732d') in 0.007568 seconds 
-  Import took 0.017105 seconds .
+  Time since last request: 1.501059 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles
+  artifactKey: Guid(eb8946a58644ebb45a92e9d47af8c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles using Guid(eb8946a58644ebb45a92e9d47af8c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3d95e72c1ae77941ce64726719d545') in 0.006615 seconds 
+  Import took 0.015037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.311075 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Sounds
-  artifactKey: Guid(8161dddbc9f0d0c4b85257cb9572c9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Sounds using Guid(8161dddbc9f0d0c4b85257cb9572c9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2befb17b3b5c84c21ab3aad9cdc6b130') in 0.007528 seconds 
-  Import took 0.016110 seconds .
+  Time since last request: 0.074926 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles/Particles_AirVentSteam.prefab
+  artifactKey: Guid(fcecd3fce21946740854a676b608be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles/Particles_AirVentSteam.prefab using Guid(fcecd3fce21946740854a676b608be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b92b6e03c5d2a2d0585bad32cd4052e') in 0.537194 seconds 
+  Import took 0.548962 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles/Particles_Fog.prefab
+  artifactKey: Guid(3db0e51b96c4a3343abd69bbbabd9d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles/Particles_Fog.prefab using Guid(3db0e51b96c4a3343abd69bbbabd9d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646896317a91b74660f43bfcf8dacd06') in 0.032300 seconds 
+  Import took 0.039634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles/Particles_Dirt.prefab
+  artifactKey: Guid(1ae66a01eb06d1f4faa0b7ec07943f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Particles/Particles_Dirt.prefab using Guid(1ae66a01eb06d1f4faa0b7ec07943f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45922a840a5ffb201e122a16812a0833') in 0.032969 seconds 
+  Import took 0.040634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.647618 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors
+  artifactKey: Guid(698fa6176f7dcdc49badf1ebefa882c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors using Guid(698fa6176f7dcdc49badf1ebefa882c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031ea584bb70ac39d0cdd0ccec964020') in 0.010048 seconds 
+  Import took 0.018288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.853470 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street
+  artifactKey: Guid(28cee34e5ee78d842b99387ccbf3e5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street using Guid(28cee34e5ee78d842b99387ccbf3e5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63260a0b2f861246e1b62f620c910e4') in 0.007220 seconds 
+  Import took 0.015670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083816 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_1x3.prefab
+  artifactKey: Guid(b6953aae8164c9f499c5a6f084b6020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_1x3.prefab using Guid(b6953aae8164c9f499c5a6f084b6020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010b4b531de434e57f6cf52ef9085e72') in 0.420656 seconds 
+  Import took 0.430937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_3x3.prefab
+  artifactKey: Guid(c4a00ab61837976428871742c970d93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_3x3.prefab using Guid(c4a00ab61837976428871742c970d93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e4a70ce2419f53bad8784d09cf49be') in 0.039096 seconds 
+  Import took 0.047436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_B_6x3.prefab
+  artifactKey: Guid(9493bbafee6b02944811e1c0347de56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_B_6x3.prefab using Guid(9493bbafee6b02944811e1c0347de56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd77468fed97191a0f7ec15fd901d62') in 0.036769 seconds 
+  Import took 0.045469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_2x3.prefab
+  artifactKey: Guid(da1193cfd5f7af249b1a9af61218d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_2x3.prefab using Guid(da1193cfd5f7af249b1a9af61218d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a42e18ca8227a7affc08dbfdd7c04f') in 0.036386 seconds 
+  Import took 0.044334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_6x3.prefab
+  artifactKey: Guid(19d12efae8f071f4cb2468e8c1557b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Straight_6x3.prefab using Guid(19d12efae8f071f4cb2468e8c1557b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fa68c0e21347d23bbdb72e6f169020') in 0.035291 seconds 
+  Import took 0.042778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_A_6x3.prefab
+  artifactKey: Guid(c3d90eb71f35385459a4c0f36f11d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/Floor_Street_Woble_A_6x3.prefab using Guid(c3d90eb71f35385459a4c0f36f11d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcea894277cad669e43887234aff16e3') in 0.036399 seconds 
+  Import took 0.044354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.371230 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/road 6x6.prefab
+  artifactKey: Guid(9f92472b6be439a44a2887d3e8d08f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Floors/Street/road 6x6.prefab using Guid(9f92472b6be439a44a2887d3e8d08f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a758ff4d491e6b9c039688392024f24d') in 0.039256 seconds 
+  Import took 0.047889 seconds .
+
