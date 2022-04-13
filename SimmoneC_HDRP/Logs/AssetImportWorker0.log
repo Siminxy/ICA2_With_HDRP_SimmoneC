@@ -15,11 +15,11 @@ C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64433
+61216
 Successfully changed project path to: C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 116.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 213.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001559 seconds.
+Registered in 0.001901 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 163.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 136.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.141 seconds
+- Completed reload, in  1.426 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1141ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (604ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
+			SetupTypeCache (226ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (290ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (316ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (164ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003469 seconds.
+Registered in 0.004188 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 126.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 149.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.677 seconds
+- Completed reload, in  2.055 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1678ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (2056ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1463ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1838ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
+			SetupTypeCache (488ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (733ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (919ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (126ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (189ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4444 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.5 MB.
-System memory in use after: 209.6 MB.
+Unloading 4431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.2 MB.
+System memory in use after: 206.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4903.
-Total: 4.130400 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.187600 ms MarkObjects: 3.450200 ms  DeleteObjects: 0.116900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4878.
+Total: 5.195100 ms (FindLiveObjects: 0.559700 ms CreateObjectMapping: 0.460400 ms MarkObjects: 4.051200 ms  DeleteObjects: 0.122400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,25 +131,993 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shader
-  artifactKey: Guid(44454bb1cca439741852e173cf4167fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shader using Guid(44454bb1cca439741852e173cf4167fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c46be2cae06063d43012ddd53c1a6a') in 0.039519 seconds 
-  Import took 0.046666 seconds .
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b358e8b5d27fc9e0cdc2c89c1e367e') in 0.095831 seconds 
+  Import took 0.107722 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 156.532891 seconds.
-  path: Assets/SimmoneC_HDRP/My Assets/Materials/TEST.mat
-  artifactKey: Guid(007e5f668d567cf488f1106478f88cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/My Assets/Materials/TEST.mat using Guid(007e5f668d567cf488f1106478f88cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4521591415eb925f305327d66f05d8') in 0.885911 seconds 
-  Import took 0.897318 seconds .
+  Time since last request: 106.736881 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/Spotlights.prefab
+  artifactKey: Guid(5c4477d1ad5fc09449534a1b2eb34407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/Spotlights.prefab using Guid(5c4477d1ad5fc09449534a1b2eb34407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd96b50e43a3b3b34ab1c86eb638c54') in 0.012981 seconds 
+  Import took 0.024836 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.793798 seconds.
-  path: Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph
-  artifactKey: Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph using Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162ebaaa943423912acb55a97d80316e') in 0.007907 seconds 
-  Import took 0.017582 seconds .
+  Time since last request: 8.544600 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a049e8b5b4d4f5a947c6b13ec3d696') in 0.008031 seconds 
+  Import took 0.017706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/Spotlights.prefab
+  artifactKey: Guid(5c4477d1ad5fc09449534a1b2eb34407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/Spotlights.prefab using Guid(5c4477d1ad5fc09449534a1b2eb34407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b197472261c3b0d9c3a2fe1c202c18') in 0.008498 seconds 
+  Import took 0.018334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.492157 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67ae35065a8da932373d6c9619787b4') in 0.006507 seconds 
+  Import took 0.017020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.754663 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77b6f5783f3701eda06639ac3480670') in 1.234742 seconds 
+  Import took 1.252677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.811380 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ec48ad0fd541309a4fb2f9deb2df27') in 0.086323 seconds 
+  Import took 0.106663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 386.792416 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729b0b50f5f061f979595ad65b00ddeb') in 0.098647 seconds 
+  Import took 0.113573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.721984 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71d073a7484d2688292f219cc199b67') in 0.094530 seconds 
+  Import took 0.113456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d527aef73802ba4c95dfee7affaaf2') in 0.016741 seconds 
+  Import took 0.030785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.405776 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644294bc26943b0c97c2a993564bf9ad') in 0.119049 seconds 
+  Import took 0.154738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e044bfdbf73e9d55f49f1b24f3a29d') in 0.008531 seconds 
+  Import took 0.023912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.848565 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8e953fb66661469f5ffe4bf54708a2') in 0.077254 seconds 
+  Import took 0.091857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56395ddb073f6fd87b9dc67d396571b') in 0.008433 seconds 
+  Import took 0.022227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.265981 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e113c63f1df4a2b6193af5f53a23c96') in 0.078871 seconds 
+  Import took 0.095121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da72a047ab1e8ad7a86b565bf8d1467') in 0.009029 seconds 
+  Import took 0.025223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.811027 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98d6a0bfd23e84285bf154cab68a954') in 0.112325 seconds 
+  Import took 0.139315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454647a5a3f5aa5f12d806c961647a7c') in 0.011233 seconds 
+  Import took 0.021972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.469864 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13b5fb5d0c18d9a1ae2e1e03b4222e5') in 0.213509 seconds 
+  Import took 0.226598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984de2e90d998f208349ede2fb2598b7') in 0.037852 seconds 
+  Import took 0.048341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.743975 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cf76f188b3e68e32c1ae3a52302df2') in 0.135490 seconds 
+  Import took 0.150160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac838cb8d57b533f633582cbd48e1952') in 0.011905 seconds 
+  Import took 0.020041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.646127 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f62144ee6962afdd05774979e529d2') in 0.171881 seconds 
+  Import took 0.188238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5273e4c998822d5d47a9b5e169c0d337') in 0.016480 seconds 
+  Import took 0.041864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.613462 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710344cb46b2c05e1fbf5177705fe48c') in 0.092732 seconds 
+  Import took 0.108131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2183d5844f8ba0ea1443c13564f193') in 0.010773 seconds 
+  Import took 0.022285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966764 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f039aedc19b4c1bff4403966e9040338') in 0.117297 seconds 
+  Import took 0.156796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f84e0fdbc5915a61890a00982dd253') in 0.017803 seconds 
+  Import took 0.027046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.083344 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90987b90815ba76484ab7159f5c7a71a') in 0.067722 seconds 
+  Import took 0.080597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003286 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef657907dd4d29d95079b9ed4c2edaf') in 0.013917 seconds 
+  Import took 0.025201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.951853 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e8a1c8583e8475f52593b896a6f58b') in 0.106603 seconds 
+  Import took 0.130733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b45c42f9e1a6ccb73df28a2c9cfbeb') in 0.013275 seconds 
+  Import took 0.030155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682310 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718b972b468fe4ffe28d69a103ccdee9') in 0.068470 seconds 
+  Import took 0.081443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccdf2c6b8bc97def825e894851f956e') in 0.011936 seconds 
+  Import took 0.032572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.531806 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fca7648d420e9791390c51566945d3a') in 0.151165 seconds 
+  Import took 0.170676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a970fd11101a84a638fd6e5a248ecb6a') in 0.011487 seconds 
+  Import took 0.023559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845186 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb7e9e6cbfec1c017688e30645dcc4') in 0.101691 seconds 
+  Import took 0.116119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c82f4acfbc1683ddd57f0079c17ea73') in 0.008912 seconds 
+  Import took 0.020582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.979052 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7721a25dbe0f4f2e2a10c1a57a228a') in 0.102676 seconds 
+  Import took 0.122672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.583955 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0b1d311f1ac5e7ecda7ea2e39b8b74') in 0.082245 seconds 
+  Import took 0.097536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b94a63d4a1b176d5938dcc649e4e93') in 0.011482 seconds 
+  Import took 0.021254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.862210 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa578a4d87eface42d83fb5484b8edf') in 0.148282 seconds 
+  Import took 0.161457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcc1b0902a8569c3b38062dd9a0036a') in 0.012283 seconds 
+  Import took 0.024587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.955444 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca5b0ae19e676aac414164027937124') in 0.117164 seconds 
+  Import took 0.145178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793170eb7b583aaa7e0c581e8a9a6a0a') in 0.025456 seconds 
+  Import took 0.042591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.883206 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbbf1ca18c4d6b0535888f0449583b5') in 0.139952 seconds 
+  Import took 0.158161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aff7ad6df6cc478fff145f16263faa') in 0.019568 seconds 
+  Import took 0.029711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.144769 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3a6e6ef6e3f313e4416bcf3406c96f') in 0.074892 seconds 
+  Import took 0.087434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598b1037ef9267a73e16498b796f1be4') in 0.011491 seconds 
+  Import took 0.022944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.102337 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568db4328687ffe40cd33c94796c045c') in 0.152504 seconds 
+  Import took 0.178705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5f8bc51c4194fb11eab1bf34ad4f45') in 0.011026 seconds 
+  Import took 0.023420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.788480 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a4f15fe765f87bd7c95bdd4da93b66') in 0.090229 seconds 
+  Import took 0.103760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022e48911bd866f482a785f628e3d948') in 0.009825 seconds 
+  Import took 0.021225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.456626 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f29680c08c29a8e85a51505d408ead7') in 0.078696 seconds 
+  Import took 0.091549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bced8cf1c25d8c508b9edb2d367252ee') in 0.009972 seconds 
+  Import took 0.021994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.734095 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6370cbf9dd50e4a5021e7f4bf458fb29') in 0.161623 seconds 
+  Import took 0.188196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adf376abe4881168cab21896128631a') in 0.007987 seconds 
+  Import took 0.025958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.828300 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b3d655f5a4b0bc1aee7111622a7180') in 0.081492 seconds 
+  Import took 0.097620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6101188cae814e3b61d4c8fddb6c5bce') in 0.008049 seconds 
+  Import took 0.024131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.445156 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5e0e40bae6fe7738cbfbabc580b006') in 0.168386 seconds 
+  Import took 0.195760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0678407578e93b44639939d47d000ba') in 0.011241 seconds 
+  Import took 0.026906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.876690 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f2bb4b5750835bcae9a3362687f649') in 0.152599 seconds 
+  Import took 0.166055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1d00520bed024526622d12ab007b3a') in 0.015085 seconds 
+  Import took 0.026890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.357159 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4e91e38c09ce507a65714d270d15a9') in 0.156578 seconds 
+  Import took 0.170983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7792443ac9b6b9ef277b4d2cdb3abd') in 0.018200 seconds 
+  Import took 0.031416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.449197 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27e6a2a53dd73c06d7568622604c34f') in 0.079656 seconds 
+  Import took 0.095394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b63bbc7655206c18e28311b315f24d') in 0.008793 seconds 
+  Import took 0.023218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.688148 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aab52188ec6b11640ee0210f0cd635') in 0.079813 seconds 
+  Import took 0.095061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604eaec482b61de1200925db10065061') in 0.010984 seconds 
+  Import took 0.021189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924766 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d7ea0b7a649b03465c1bd74c711479') in 0.130535 seconds 
+  Import took 0.146211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079aa2b89383f62dcf8ddeccff6aaaeb') in 0.009408 seconds 
+  Import took 0.019581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.672361 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaed789ef77de40c0e833009af6b2d9') in 0.078575 seconds 
+  Import took 0.091710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fa00be8adcd9013fc206d67aba2142') in 0.011743 seconds 
+  Import took 0.023622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.113391 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840712f09a1d3f913765a8269b379930') in 0.113672 seconds 
+  Import took 0.130985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238f704547501748ace108d11a5ab723') in 0.023376 seconds 
+  Import took 0.062400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.626931 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b283150d38e9059233b5e8121614b31') in 0.076561 seconds 
+  Import took 0.088842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd7ddaf7c7c5e979e8387da4f62d738') in 0.010475 seconds 
+  Import took 0.022754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.570291 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03c3a613b46279bbc5d6cbaf5381b5a') in 0.108354 seconds 
+  Import took 0.128322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb6417d15ba3acf0871788817b1e84b') in 0.018164 seconds 
+  Import took 0.029088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.450402 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af411f7089726b9e84eb9241ec7e6cbe') in 0.107299 seconds 
+  Import took 0.133115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e573bfc91fdb48a2044f8a46979c5392') in 0.026733 seconds 
+  Import took 0.049629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.856460 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9196cf8436c27ae058f784d5a6806f79') in 0.107999 seconds 
+  Import took 0.121084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d846b2dd58daf1d45e5b51d7bb7cc3') in 0.009699 seconds 
+  Import took 0.018438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.893992 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b57a72eda792a68d1889fff5873e2f') in 0.096181 seconds 
+  Import took 0.113607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777c70ed5e7fb91c6f20175ee5734904') in 0.025648 seconds 
+  Import took 0.037117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.475120 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e9aca4b62244b21fec992f89816c4e') in 0.129301 seconds 
+  Import took 0.145115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749f1cb30dc14b6c481120ebe82be7ab') in 0.017178 seconds 
+  Import took 0.053519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200502 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffa79bf42c342ebd1f477464ed17288') in 0.076549 seconds 
+  Import took 0.088979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec099b2b25e328c679a8f04b8b0d6dd') in 0.011412 seconds 
+  Import took 0.027991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.702295 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e459fcea29a6dc65ea6a2b1b53366ae3') in 0.076945 seconds 
+  Import took 0.088882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a17a7514ae08c2451bc786f249ff10c') in 0.010244 seconds 
+  Import took 0.021996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.294307 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe13fbab7a0dd8813463f4066115b41') in 0.077573 seconds 
+  Import took 0.090389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350f81e4643df60b2090852e40a982ab') in 0.011101 seconds 
+  Import took 0.024022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.000483 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749d646b6558c1c750f31a2be93e6917') in 0.103061 seconds 
+  Import took 0.117155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001063 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9393a6aea3f41127ebd2514bbe57469f') in 0.010410 seconds 
+  Import took 0.020783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.650725 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a37247dfdaaff2279c3b138496ed29') in 0.103353 seconds 
+  Import took 0.116339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491e0e06de7f002dd03872fd2cdd3977') in 0.017550 seconds 
+  Import took 0.032840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.854531 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005b068945d178b5e0ccde45c6414521') in 0.099442 seconds 
+  Import took 0.117065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e3bf03e18a1d6dc2805dbc9e0bab97') in 0.010217 seconds 
+  Import took 0.020685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.007772 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1fdb5b0bc40e7d86103f20a0c1bfef') in 0.076941 seconds 
+  Import took 0.094141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63865ce0212dc66927879dc1a23cc04') in 0.010501 seconds 
+  Import took 0.023081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.804990 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925b98a2aad1e23254167b8db58deae8') in 0.066428 seconds 
+  Import took 0.082043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e5e1b38d199a255c476e085d39d526') in 0.008292 seconds 
+  Import took 0.023443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.554654 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3760a9104d7af43c9f088a245bb720') in 0.062060 seconds 
+  Import took 0.079730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a36393e703d2e46d7abf9479b026831') in 0.010185 seconds 
+  Import took 0.019163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.906969 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0c21c2558b99572fcaf419e160a091') in 0.120251 seconds 
+  Import took 0.157662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b7404f4c8614d37eb8737348cfb4cf') in 0.007953 seconds 
+  Import took 0.016383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.697893 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e3f7c8de0780638e6159b10be11ef7') in 0.099650 seconds 
+  Import took 0.115681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f445559a4e2af09c70c456665ce50') in 0.010299 seconds 
+  Import took 0.019282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.103760 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab
+  artifactKey: Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetLamp.prefab using Guid(f2d12330ba6321f438b0b753f771f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4383b01409cfab3b3b1e528b9a41226d') in 0.073356 seconds 
+  Import took 0.085542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab
+  artifactKey: Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Prefabs/StreetlightSpotlight.prefab using Guid(e1962e314d12baf45a37cae49f088f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe8a0c542f4fb7a0c93bdebcae2a8f1') in 0.009758 seconds 
+  Import took 0.019765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.571917 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeGlobal.asset
+  artifactKey: Guid(68a8e006fd9474042bdda9ae4ada5b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeGlobal.asset using Guid(68a8e006fd9474042bdda9ae4ada5b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac38d41446edb1c97477b1274728ed7') in 0.016653 seconds 
+  Import took 0.025172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.881158 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom1.asset
+  artifactKey: Guid(a236d92b7faa613429c63fdf8820b95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom1.asset using Guid(a236d92b7faa613429c63fdf8820b95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37085710c50a183e64ce52ee6df3e33d') in 0.009746 seconds 
+  Import took 0.018642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom1.asset
+  artifactKey: Guid(8e86c6b7fe4b94841a54c13065a5ecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom1.asset using Guid(8e86c6b7fe4b94841a54c13065a5ecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536bb40b19d87276d0d78c6959406cd7') in 0.004727 seconds 
+  Import took 0.014328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243496 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom2.asset
+  artifactKey: Guid(3df3202105e6a7644aecc5f49deaa9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom2.asset using Guid(3df3202105e6a7644aecc5f49deaa9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180f745e3c4dcda7dee854beaae01d6a') in 0.007672 seconds 
+  Import took 0.017028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom2.asset
+  artifactKey: Guid(c38fa6414f78c19469f788b8db1f3abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom2.asset using Guid(c38fa6414f78c19469f788b8db1f3abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32fbfac9068b04033f9e0c9cd612155') in 0.003962 seconds 
+  Import took 0.015433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.582806 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom2Skylight.asset
+  artifactKey: Guid(a21b92e0b7df9ad41b453cde95faacfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom2Skylight.asset using Guid(a21b92e0b7df9ad41b453cde95faacfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20df362ccaa28416c6a58a171d97f231') in 0.008927 seconds 
+  Import took 0.019398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom2Skylight.asset
+  artifactKey: Guid(3cf5c70d8335dbf479915bc46c5a1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom2Skylight.asset using Guid(3cf5c70d8335dbf479915bc46c5a1d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc34de9c38aa02416a4ccd2feb6f137') in 0.005125 seconds 
+  Import took 0.014295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080471 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom3.asset
+  artifactKey: Guid(5a186c3b311a5764fa63b70fcc61d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom3.asset using Guid(5a186c3b311a5764fa63b70fcc61d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864fa7e20aed97e7e3d5e76550b7bb78') in 0.010272 seconds 
+  Import took 0.019322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom3.asset
+  artifactKey: Guid(b3132115cb8d8b24cb52878c118d3d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom3.asset using Guid(b3132115cb8d8b24cb52878c118d3d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430110e654d8545f17e440836eade0a4') in 0.005227 seconds 
+  Import took 0.014872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041521 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom3Corridor.asset
+  artifactKey: Guid(be292deaeb378af46aa184b9bf698bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom3Corridor.asset using Guid(be292deaeb378af46aa184b9bf698bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207147e7f7654774bb6ebac34ab5e2f4') in 0.008708 seconds 
+  Import took 0.018749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom3Corridor.asset
+  artifactKey: Guid(09270c99875be844bbc4eb3ed1c7560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom3Corridor.asset using Guid(09270c99875be844bbc4eb3ed1c7560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750402967e7a5a94b2267e97841555c4') in 0.006192 seconds 
+  Import took 0.022616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.129571 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom3Sitting.asset
+  artifactKey: Guid(d95da462b2cc78e45ba45232a5e0a053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Settings 1/Volumes/VolumeRoom3Sitting.asset using Guid(d95da462b2cc78e45ba45232a5e0a053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cd95c5b886c46c8f1809c712b1d985') in 0.007244 seconds 
+  Import took 0.016671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom3Sitting.asset
+  artifactKey: Guid(89479096a6ba76444b3b4f617204b2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/Settings 1/Volumes/VolumeRoom3Sitting.asset using Guid(89479096a6ba76444b3b4f617204b2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190d15f945dab11efb8c3c2a221c500f') in 0.005237 seconds 
+  Import took 0.015130 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
