@@ -1,0 +1,7 @@
+Fake interior shader:
+Using the screenshot found here:
+https://www.reddit.com/r/Unity3D/comments/j9q5zl/fake_interior_effect_in_unity_using_shader_graph/
+Link to screenshot:
+https://drive.google.com/file/d/1Oc1wct5qZQVksUkym9pvU_0CaVMM1dke/view
+(Screenshot will also be included in project)
+Accessed: 14/02/2022
