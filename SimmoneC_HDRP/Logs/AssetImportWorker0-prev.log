@@ -15,11 +15,11 @@ C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61899
+55412
 Successfully changed project path to: C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 C:/Users/Admin/Documents/GitHub/ICA2_With_HDRP_SimmoneC/SimmoneC_HDRP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 116.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 118.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003157 seconds.
+Registered in 0.001923 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 116.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 110.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.254 seconds
+- Completed reload, in  1.186 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1255ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (576ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (550ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (260ms)
+			SetupLoadedEditorAssemblies (249ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004722 seconds.
+Registered in 0.004063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 121.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 118.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.808 seconds
+- Completed reload, in  1.891 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1809ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (1892ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1575ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (1635ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
+			SetupTypeCache (467ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (750ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (808ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (352ms)
-				ProcessInitializeOnLoadMethodAttributes (156ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.0 MB.
-System memory in use after: 206.2 MB.
+System memory in use before: 206.1 MB.
+System memory in use after: 206.3 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4878.
-Total: 5.811800 ms (FindLiveObjects: 0.586000 ms CreateObjectMapping: 0.489500 ms MarkObjects: 4.607300 ms  DeleteObjects: 0.127200 ms)
+Total: 5.459500 ms (FindLiveObjects: 0.561000 ms CreateObjectMapping: 0.435100 ms MarkObjects: 4.343100 ms  DeleteObjects: 0.118900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,281 +131,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3044a1e51496c1823b8508a1eddbbc0f') in 0.937056 seconds 
-  Import took 0.949382 seconds .
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/StreetSign.prefab
+  artifactKey: Guid(0ededfa4a9941d341bc6eb1b79482e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/StreetSign.prefab using Guid(0ededfa4a9941d341bc6eb1b79482e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb08d4054d50bded0a4b3053aab362ba') in 0.926929 seconds 
+  Import took 0.940019 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759bfaff2210d841e665718255240d45') in 0.069904 seconds 
-  Import took 0.079518 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Trashcan_B.prefab
+  artifactKey: Guid(1657f12d57b3c35408da3ee1cbda09eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Trashcan_B.prefab using Guid(1657f12d57b3c35408da3ee1cbda09eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ce821fee576e335fc15d298468676e') in 0.055290 seconds 
+  Import took 0.067128 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.537536 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4780d5014bb52d9ac38fa3437108a3fb') in 0.050440 seconds 
-  Import took 0.061287 seconds .
+  Time since last request: 0.000355 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Trashcan_A.prefab
+  artifactKey: Guid(d365ba98ecd51f647af5579f8fcadb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Trashcan_A.prefab using Guid(d365ba98ecd51f647af5579f8fcadb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1499a041bc97d424c877e567fdf007') in 0.053143 seconds 
+  Import took 0.064681 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bb6b440b39ac1de0f337521e143c57') in 0.045270 seconds 
-  Import took 0.056049 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Street_Manhole_A.prefab
+  artifactKey: Guid(4f659556d191ca440a3be507960bcf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Street_Manhole_A.prefab using Guid(4f659556d191ca440a3be507960bcf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99098b5c57abf0d6ed728ecbba50f03') in 0.051319 seconds 
+  Import took 0.061541 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.761648 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99184b5910a40f5e12095bc4232fa534') in 0.039776 seconds 
-  Import took 0.050314 seconds .
+  Time since last request: 158.670153 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph
+  artifactKey: Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph using Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002570d13c401c5168284bc7e1dcd425') in 0.009900 seconds 
+  Import took 0.019226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe1465a57abc98278c6307d88f5cffe') in 0.043913 seconds 
-  Import took 0.056271 seconds .
+  Time since last request: 674.721104 seconds.
+  path: Assets/SimmoneC_HDRP/_Scenes/StarterScene/ReflectionProbe-0.exr
+  artifactKey: Guid(ab1d6e7696799fe4eb6845414dd0a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/_Scenes/StarterScene/ReflectionProbe-0.exr using Guid(ab1d6e7696799fe4eb6845414dd0a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fb1b762df24a77d0ba2478c236149a') in 0.065577 seconds 
+  Import took 0.076843 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.702085 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208c319dcf17bc5e7c777208c19a7fe2') in 0.046533 seconds 
-  Import took 0.057745 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-5.exr
+  artifactKey: Guid(84decc14d3cf01c45ad713670f164cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-5.exr using Guid(84decc14d3cf01c45ad713670f164cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2aea580c098b0c724be9aa8e0eefde') in 0.063586 seconds 
+  Import took 0.072277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec5c6377391a2ec7e69ad6f306ef44') in 0.046695 seconds 
-  Import took 0.057187 seconds .
+  Time since last request: 1.059028 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-6.exr
+  artifactKey: Guid(bcc5d397b6334c64dab068d6bb859803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-6.exr using Guid(bcc5d397b6334c64dab068d6bb859803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e815e475053edcbe2024de049ec4c36') in 0.052985 seconds 
+  Import took 0.060919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.943565 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e69abda84e5e03ecb4fd6f9ec7c5be') in 0.041776 seconds 
-  Import took 0.053545 seconds .
+  Time since last request: 0.000252 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-7.exr
+  artifactKey: Guid(db9a1847f2c6ae34c9ec4947ce906bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-7.exr using Guid(db9a1847f2c6ae34c9ec4947ce906bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d93aa952c0efca30dab14e6e3382a6') in 0.051967 seconds 
+  Import took 0.059418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be7c1258dfa114112dddf8748c7f4b9') in 0.044692 seconds 
-  Import took 0.054395 seconds .
+  Time since last request: 1.902440 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-8.exr
+  artifactKey: Guid(7f20f555bfbdcaa46a2cc1e0075120a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-8.exr using Guid(7f20f555bfbdcaa46a2cc1e0075120a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390d34cd24129f7aa07facc1727bb945') in 0.053119 seconds 
+  Import took 0.061534 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.009336 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac29e14a790322f9e3420ca2905af9ea') in 0.044822 seconds 
-  Import took 0.055054 seconds .
+  Time since last request: 693.917067 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph
+  artifactKey: Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph using Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637d6752ca940065b2f5c26c27712434') in 0.004480 seconds 
+  Import took 0.015064 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652891240a3d5e0fa727f1a38b1f9fbb') in 0.046864 seconds 
-  Import took 0.057291 seconds .
+  Time since last request: 574.704403 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph
+  artifactKey: Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph using Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61a8919cf4b7f7583d8a5aae2dbcaa9') in 0.004410 seconds 
+  Import took 0.015056 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.717120 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfe84ee742ab019771f83a9d7b7416b') in 0.042729 seconds 
-  Import took 0.054342 seconds .
+  Time since last request: 16.774874 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMapShader.shadergraph
+  artifactKey: Guid(0b9cee18aacc762478a5386230066ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMapShader.shadergraph using Guid(0b9cee18aacc762478a5386230066ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fceb497790da40564527747f3279611') in 0.014894 seconds 
+  Import took 0.026606 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd0967e7f304a82fd864316e71b6412') in 0.048488 seconds 
-  Import took 0.059528 seconds .
+  Time since last request: 9.550712 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph
+  artifactKey: Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Shaders/InteriorMappingShader.shadergraph using Guid(7f7d37df9d0e49440af4921665b553b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd679c0cfcdb630e1cab955ba4b1b2ae2') in 0.003752 seconds 
+  Import took 0.012676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.399667 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bfafdc73f915ec7aa59c25dea88d40') in 0.049201 seconds 
-  Import took 0.060483 seconds .
+  Time since last request: 10.200266 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Textures/City_PNG.png
+  artifactKey: Guid(4f3295729b0f9b6448589397fbc7d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Textures/City_PNG.png using Guid(4f3295729b0f9b6448589397fbc7d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689fe671e6a2213a150be7afdac60e67') in 0.137214 seconds 
+  Import took 0.149670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b437714d2c8aa390a6da0d0c24f2d529') in 0.047271 seconds 
-  Import took 0.057592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.886569 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37956bfa6a6a8583b54e3f5b2893198') in 0.043966 seconds 
-  Import took 0.056121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a2ad6231a83453826892fb461c2e24') in 0.051270 seconds 
-  Import took 0.061503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.223133 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb08b3538b510b3d475c565173397e4') in 0.063832 seconds 
-  Import took 0.079436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d203ffb84300c0eb4712244cdc055d') in 0.095927 seconds 
-  Import took 0.116027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.113577 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a77ee1bb7f8515f3df9a692689d434') in 0.069154 seconds 
-  Import took 0.080358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b103fc537eb5086de114a8e52781e59') in 0.107363 seconds 
-  Import took 0.120198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.932616 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e878bb27d1fcc5abf3593d555e886b') in 0.062516 seconds 
-  Import took 0.074210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bc542cb8275b5c992e78407c26451e') in 0.130949 seconds 
-  Import took 0.140301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.889406 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdd4f93c7740f0ba242ffd5353761d5') in 0.109873 seconds 
-  Import took 0.121433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f848b1066c98bc2b41792a5b6234df3f') in 0.091939 seconds 
-  Import took 0.106079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.696758 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e57d27a573eaed21cbe7cafb7d56416') in 0.176505 seconds 
-  Import took 0.191489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfef66618dd5ee71bbff5cf9dc8ee42d') in 0.083141 seconds 
-  Import took 0.100382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.528587 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab
-  artifactKey: Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_BulbHanging.prefab using Guid(892d4a4b5038bb746bd9315ec4136f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd20c2b002c54ba3d44dfabd130819c') in 0.104378 seconds 
-  Import took 0.127064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000766 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab
-  artifactKey: Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_HangingBulbs.prefab using Guid(6cd925b36cd94044098730afc5da593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a73599f001a0c7a54b20ff45ed47d8') in 0.074164 seconds 
-  Import took 0.098125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 554.225793 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_StreetHigh.prefab
-  artifactKey: Guid(fff8d486896b86440a49f62f2579c357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Lamp_StreetHigh.prefab using Guid(fff8d486896b86440a49f62f2579c357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f636919788c9f00802c1d9e9d2e0a4') in 0.068414 seconds 
-  Import took 0.083001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1704.748947 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_B.prefab
-  artifactKey: Guid(4be3dc8f954784c46ae553d7f41fc741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_B.prefab using Guid(4be3dc8f954784c46ae553d7f41fc741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c596cf6d63d0a582cc0f0eeba53478') in 0.042780 seconds 
-  Import took 0.054141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_G.prefab
-  artifactKey: Guid(01f4409147af81748964728f27df1efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_G.prefab using Guid(01f4409147af81748964728f27df1efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdba527ed395420723e9ee4d625994e') in 0.041858 seconds 
-  Import took 0.052871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_D.prefab
-  artifactKey: Guid(aa7566da9c5b2364382182c12687a465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_D.prefab using Guid(aa7566da9c5b2364382182c12687a465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca55e3c9eef464c5f3d118781e0b1fb') in 0.036543 seconds 
-  Import took 0.048054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_E.prefab
-  artifactKey: Guid(516df5d65e413df48851f940fc4be6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimmoneC_HDRP/Third Party Assets/ModularCityAlleyPack/Prefabs/Prefabs_Props/Neon_Sign_E.prefab using Guid(516df5d65e413df48851f940fc4be6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aebc448b33f17ab64bffbf4ad74467') in 0.038343 seconds 
-  Import took 0.047625 seconds .
+  Time since last request: 4.631745 seconds.
+  path: Assets/SimmoneC_HDRP/My Assets/Textures/Fake Interior Graph.PNG
+  artifactKey: Guid(17e24b7df3ed3814ca717b45478d743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimmoneC_HDRP/My Assets/Textures/Fake Interior Graph.PNG using Guid(17e24b7df3ed3814ca717b45478d743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a422c35f14c31879803734527324c90') in 0.018578 seconds 
+  Import took 0.030676 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
