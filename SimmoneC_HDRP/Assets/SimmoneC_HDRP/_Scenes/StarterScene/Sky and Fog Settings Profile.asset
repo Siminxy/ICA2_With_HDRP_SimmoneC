@@ -227,7 +227,7 @@ MonoBehaviour:
     showEyeDropper: 1
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+    m_Value: {r: 0.10902458, g: 0.10902458, b: 0.13207549, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
