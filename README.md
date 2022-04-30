@@ -12,3 +12,13 @@
 
 </ul>
 
+
+<h2>Texture credits</h2>
+
+<ul>
+
+<li>"Metal Shutter Gate Texture" (https://seamless-pixels.blogspot.com/2015/03/metal-shutter-gate-texture.html) </li>
+<li>"Transparency Bugs" by Tierra Ferry (https://www.picpng.com/bugs-png-36561)</li>
+
+</ul>
+
