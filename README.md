@@ -1,11 +1,22 @@
 # ICA2_With_HDRP_SimmoneC
  
+<h2>Controls</h2>
+
+<ul>
+
+<li>Press 'E' to turn on and off flashlight</li>
+<li>Press 'M' for toggling on and off the metal shutter occlusion portal</li>
+
+</ul>
+
 <h2>Code credits</h2>
 
 <ul>
 
 <li>Fake Interior shader by AE Tuts, following their tutorial here https://www.youtube.com/watch?v=rC4BHR-Cx0s </li>
 <li>Scrolling texture shader by Emjee Tutorials, following tutorial here https://www.youtube.com/watch?v=sL2o82VTxcM</li>
+<li>unity fps counter by iqcode, https://iqcode.com/code/csharp/unity-fps-counter</li>
+
 </ul>
 
 
