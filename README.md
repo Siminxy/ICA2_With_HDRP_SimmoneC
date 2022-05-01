@@ -4,8 +4,8 @@
 
 <ul>
 
-<li>Fake Interior shader by AE Tuts, following thier tutorial here https://www.youtube.com/watch?v=rC4BHR-Cx0s </li>
-
+<li>Fake Interior shader by AE Tuts, following their tutorial here https://www.youtube.com/watch?v=rC4BHR-Cx0s </li>
+<li>Scrolling texture shader by Emjee Tutorials, following tutorial here https://www.youtube.com/watch?v=sL2o82VTxcM</li>
 </ul>
 
 
