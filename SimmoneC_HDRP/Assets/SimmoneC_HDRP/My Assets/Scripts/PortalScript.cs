@@ -6,6 +6,7 @@ public class PortalScript : MonoBehaviour
 {
     private bool isOpen = false;
     private OcclusionPortal portal;
+    [SerializeField] private AudioSource sfx;
 
     void Start()
     {
@@ -16,6 +17,7 @@ public class PortalScript : MonoBehaviour
     {
         if(Input.GetKeyUp("m"))
         {
+            sfx.Play();
             isOpen = !isOpen;
             portal.open = isOpen;
             this.GetComponent<Renderer>().enabled = isOpen;

@@ -47,3 +47,12 @@
 
 </ul>
 
+<h2>Sound credits</h2>
+
+<ul>
+
+<li>"Ambience, Residential, Night, Crickets, Night Bird-AmbiX" from Sonik Sound Library - Spatial Towns, GDC 2020</li>
+<li>"Click_01" from Matias Vidal Saavedra - Animated Explainer Video, GDC 2020</li>
+<li>"movie_camera_vintage_shutter_spin_6" from Gamemaster Audio - Pro Sound Collection v1.3 - 16bit 48k\Miscellaneous\Film Camera Movie Projector Small, Game Master Audio Pro Sound Collection</li>
+<li>"FOOTSTEP - Metal Board Run Barefoot Male - 10" from Timothy McHugh -  Barefoot on Metal, sonniss</li>
+</ul>
