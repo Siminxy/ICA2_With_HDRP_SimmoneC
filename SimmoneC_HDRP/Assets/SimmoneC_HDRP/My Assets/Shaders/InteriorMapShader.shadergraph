@@ -883,8 +883,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": -20.999958038330079,
-            "y": 36.00004577636719
+            "x": 2.999967098236084,
+            "y": 287.9999084472656
         },
         "m_Blocks": [
             {
@@ -2563,7 +2563,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Z",
     "m_StageCapability": 3,
-    "m_Value": 1.0,
+    "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": [
         "Z"
@@ -3092,7 +3092,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -5624,7 +5624,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 2.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
